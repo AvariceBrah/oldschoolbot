@@ -1,6 +1,6 @@
-import LootTable from '@/structures/LootTable.js';
-import { SimpleMonster } from '@/structures/Monster.js';
-import { makeRevTable } from '@/util/revs.js';
+import LootTable from '../../../../structures/LootTable';
+import SimpleMonster from '../../../../structures/SimpleMonster';
+import { makeRevTable } from '../../../../util';
 
 export const RevenantCyclopsTable = new LootTable()
 	.every('Revenant ether', [1, 10])
@@ -34,7 +34,7 @@ export const RevenantCyclopsTable = new LootTable()
 	/* Other */
 	.add('Coins', [1, 226], 120)
 	.add('Revenant cave teleport', 1, 7)
-	.add('Super restore(4)', [3, 5], 4)
+	.add('Blighted Super restore(4)', [3, 5], 4)
 	.add('Dragonstone bolt tips', [40, 70], 4)
 	.add('Onyx bolt tips', [5, 10], 4)
 	.add('Law rune', [80, 120], 3)
