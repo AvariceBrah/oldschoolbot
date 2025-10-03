@@ -33,7 +33,7 @@ export const RevenantDragonTable = new LootTable()
 
 	/* Other */
 	.add('Revenant cave teleport', 1, 7)
-	.add('Super restore(4)', [3, 5], 4)
+	.add('Blighted Super restore(4)', [3, 5], 4)
 	.add('Dragonstone bolt tips', [40, 70], 4)
 	.add('Onyx bolt tips', [5, 10], 4)
 	.add('Law rune', [80, 120], 3)

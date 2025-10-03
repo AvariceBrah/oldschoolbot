@@ -2,6 +2,7 @@ import LootTable from '@/structures/LootTable.js';
 import { SimpleMonster } from '@/structures/Monster.js';
 import { makeRevTable } from '@/util/revs.js';
 
+
 export const RevenantHobgoblinTable = new LootTable()
 	.tertiary(5000, 'Hobgoblin champion scroll')
 	.every('Revenant ether', [1, 8])
@@ -36,7 +37,7 @@ export const RevenantHobgoblinTable = new LootTable()
 	/* Other */
 	.add('Coins', [1, 176], 280)
 	.add('Revenant cave teleport', 1, 7)
-	.add('Super restore(4)', [3, 5], 4)
+	.add('Blighted Super restore(4)', [3, 5], 4)
 	.add('Dragonstone bolt tips', [40, 70], 4)
 	.add('Onyx bolt tips', [5, 10], 4)
 	.add('Law rune', [80, 120], 3)
