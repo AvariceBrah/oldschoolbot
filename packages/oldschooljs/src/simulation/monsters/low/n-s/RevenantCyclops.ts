@@ -2,7 +2,6 @@ import LootTable from '@/structures/LootTable.js';
 import { SimpleMonster } from '@/structures/Monster.js';
 import { makeRevTable } from '@/util/revs.js';
 
-
 export const RevenantCyclopsTable = new LootTable()
 	.every('Revenant ether', [1, 10])
 
